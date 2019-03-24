@@ -1,0 +1,12 @@
+---
+---
+
+@import 'bootstrap/bootstrap';
+@import 'custom/includes/banner';
+@import 'custom/includes/header';
+@import 'custom/layouts/activity';
+@import 'custom/pages/home';
+
+html {
+    overflow-y: overlay;
+}

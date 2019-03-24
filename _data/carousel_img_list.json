@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Picnic",
+        "source": "activity_picnic.png"
+    },
+    {
+        "title": "Kids",
+        "source": "activity_kids.png"
+    },
+    {
+        "title": "Orti",
+        "source": "activity_orti.png"
+    },
+    {
+        "title": "Sports",
+        "source": "activity_sport.png"
+    }
+]
