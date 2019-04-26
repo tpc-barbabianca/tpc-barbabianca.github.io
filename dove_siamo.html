@@ -10,18 +10,32 @@ title: Dove siamo
                 <img src="/assets/images/menu_items/dove_siamo.png" height="100" alt="dove siamo">
             </div>
         </div>
-        <div class="row">
-            <div>
+
+        <div class="tabbed">
+
+            <div class="pt-4">
                 <p>Il Centro Barbabianca si trova all'interno dell'Azienda Agricola Torre in Pietra Carandini,
                 raggiungibile dall'Aurelia al km 25,500 per chi viene da Roma, o anche da via della Muratella,
                 per chi viene da fuori Roma.</p>
             </div>
+
+            <ul class="nav nav-tabs pl-4">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Per chi viene da Roma</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/dove_siamo_da_fuori_roma">Per chi viene da fuori Roma</a>
+                </li>
+            </ul>
+
         </div>
-        <div class="row justify-content-center">
+
+        <div class="row justify-content-center pt-2">
             <div>
                 <img class="full" src="/assets/images/map_med_da_roma.png" height="300" alt="mappa con le indicazioni per raggiungerci venendo da roma">
             </div>
         </div>
+
         <div class="row pt-4">
             <div>
                 <h3>Indicazioni per chi viene da Roma</h3>
@@ -30,7 +44,6 @@ title: Dove siamo
                     <li>Svoltare a sinistra per passare sotto l'Aurelia e poi a destra lungo la parallela</li>
                     <li>Imboccare il viale alberato di pini e cipressi e percorrerlo tutto, sino al Centro Barbabianca</li>
                 </ol>
-                <a href="{{ site.baseurl }}/dove_siamo_da_fuori_roma">Mostra le indicazioni per chi viene da fuori Roma</a>
             </div>
         </div>
     </div>
