@@ -5,15 +5,38 @@ title: Picnic
 
 <section id="picnic">
     <div class="container">
-        <div class="row">
+        <div class="row pl-3">
             <div>
-                <img src="/assets/images/menu_items/picnic.png" height="100" alt="kids">
+                <img src="/assets/images/menu_items/picnic.png" height="100" alt="picnic">
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div>
-                <img src="/assets/images/puc.png" height="300" alt="kids">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                {% for item in site.data.carousel_picnic_img_list %}
+                    {% if forloop.index == 1 %}
+                    <div class="carousel-item active">
+                    {% else %}
+                    <div class="carousel-item">
+                    {% endif %}
+                        <img class="d-block w-90" src="/assets/images/carousel_picnic/{{ item.source }}" alt="{{ item.title }}">
+                    </div>
+                {% endfor %}
             </div>
+        </div>
+        <div class="pt-4">
+            <p>Per 7€ a persona (5€ per bambini dai 3 ai 12 anni)</p>
+            <p>Offriamo:</p>
+            <ul>
+                <li>Carbonella e legna per il barbecue</li>
+                <li>Coperto (tovaglietta, piatto, posate e bicchiere)</li>
+                <li>Un filone di pane e olio per condire</li>
+            </ul>
+            <p>tutto il resto lo portate voi...</p>
+            <p>In loco è possibile acquistare, se lo desiderate:</p>
+            <ul>
+                <li>Acqua, Vino, Gelati artigianali</li>
+            </ul>
+            <p>Prenotazioni: 335 7277303</p>
         </div>
     </div>
 </section>
