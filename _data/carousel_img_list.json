@@ -1,18 +1,18 @@
 [
     {
         "title": "Picnic",
-        "source": "activity_picnic.png"
+        "source": "activity_picnic.jpg"
     },
     {
         "title": "Kids",
-        "source": "activity_kids.png"
+        "source": "activity_kids.jpg"
     },
     {
         "title": "Orti",
-        "source": "activity_orti.png"
+        "source": "activity_orti.jpg"
     },
     {
         "title": "Sports",
-        "source": "activity_sport.png"
+        "source": "activity_sport.jpg"
     }
 ]
