@@ -1,50 +1,10 @@
 ---
 layout: default
-title: Picnic
+title: Reindirizza al sito ufficiale
 ---
 
-<section id="picnic">
-    <div class="container">
-        <div class="row pl-3">
-            <div>
-                <img src="/assets/images/menu_items/picnic.jpg" height="100" alt="picnic">
-            </div>
-        </div>
-        <div id="carouselPicnic" class="carousel slide" data-ride="carousel" data-interval="3000">
-            <div class="carousel-inner">
-                {% for item in site.data.carousel_picnic_img_list %}
-                    {% if forloop.index == 1 %}
-                    <div class="carousel-item active">
-                    {% else %}
-                    <div class="carousel-item">
-                    {% endif %}
-                        <img class="d-block w-90" src="/assets/images/carousel_picnic/{{ item.source }}" alt="{{ item.title }}">
-                    </div>
-                {% endfor %}
-            </div>
-            <a class="carousel-control-prev" href="#carouselPicnic" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselPicnic" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-        <div class="pt-4">
-            <p>Per 7€ a persona (5€ per bambini dai 3 ai 12 anni)</p>
-            <p>Offriamo:</p>
-            <ul>
-                <li>Carbonella e legna per il barbecue</li>
-                <li>Coperto (tovaglietta, piatto, posate e bicchiere)</li>
-                <li>Un filone di pane e olio per condire</li>
-            </ul>
-            <p>tutto il resto lo portate voi...</p>
-            <p>In loco è possibile acquistare, se lo desiderate:</p>
-            <ul>
-                <li>Acqua, Vino, Gelati artigianali</li>
-            </ul>
-            <p>Prenotazioni: <br/><b>Susanna Carandini 335 7277303</b></p>
-        </div>
-    </div>
-</section>
+<div style="font-family: Arial; text-align: center;">
+  <img style="height: 300px;" src="tpc_logo.jpg" alt="Logo dell'azienda Torre in Pietra Carandini">
+  <p>Tutte le informazioni relative a Barbabianca Picnic ora sono nel nuovo sito aziendale</p>
+  <p><a href="https://www.torreinpietracarandini.it/barbabianca">www.torreinpietracarandini/barbabianca</p>
+</div>
