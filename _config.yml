@@ -13,16 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Barbabianca
-email: info@barbabianca.it
+title: Torre in Pietra Carandini
+email: info@torreinpietracarandini.it
 description: >- # this means to ignore newlines until "baseurl:"
   A due passi da Roma, una giornata di sport e relax, per vivere la natura nella storica azienda Torre in Pietra Carandini
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: tpc-barbabianca
-fb_group_name: barbabianca.it
-twitter_username: tpc_barbabianca
-instagram_username: tpc_barbabianca
+fb_page_name: torreinpietracarandini
+twitter_username: torrimpietra
+instagram_username: torreinpietracarandini
 show_social_icons: true
 
 # Build settings
